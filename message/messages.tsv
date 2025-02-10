@@ -1,3 +1,11 @@
 messageRegex	FreakyVilleMessageType
 ^\[\/ce find <spiller>\] Se hvem spilleren har add hos$	LIVING_AREA_HELP
 ^\| FV-PRISON \| VAGT-ALARM: ([a-zA-Z0-9_]{2,16}) har haft fingrene i Vagt-Vaulten i C!$	C_GUARD_VAULT_START
+^VAGT-ALARM: ([a-zA-Z0-9_]{2,16}) har stjålet inventar fra Vagt-Huset B!$	B_GUARD_VAULT_START
+^VAGT-ALARM: ([a-zA-Z0-9_]{2,16}) prøver at bryde pengeskabet op i banken i B+ Området!$	B_PLUS_GUARD_VAULT_START
+^VAGT-ALARM: ([a-zA-Z0-9_]{2,16}) forsøger at røve vagternes værdi-boks i A!$	A_GUARD_VAULT_START
+^VAGT-ALARM: ([a-zA-Z0-9_]{2,16}) prøver at bryde pengeskabet op i banken i A+ Området!$	A_PLUS_GUARD_VAULT_START
+^VAGT-ALARM: Det lykkedes ([a-zA-Z0-9_]{2,16}) at bryde bankens pengeskab op i B+ Området!$	B_PLUS_GUARD_VAULT_FINISH
+^VAGT-ALARM: ([a-zA-Z0-9_]{2,16}) gennemførte et røveri i vagternes værdi-boks i A!$	A_GUARD_VAULT_FINISH
+^VAGT-ALARM: Det lykkedes ([a-zA-Z0-9_]{2,16}) at bryde bankens pengeskab op i A+ Området!$	A_PLUS_GUARD_VAULT_FINISH
+^------------={ ((?=[A-Za-z]*\d)(?=\d*[A-Za-z])[A-Za-z\d]+) }=------------$	LIVING_AREA_LOOKUP
