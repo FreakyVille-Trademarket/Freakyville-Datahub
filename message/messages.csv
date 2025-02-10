@@ -1,2 +1,3 @@
-message,eventMessage
-[/ce find <spiller>] Se hvem spilleren har add hos,SPECIFIC_MESSAGE_RECEIVED_CANCELLED
+messageRegex,FreakyVilleMessageType
+^\[\/ce find <spiller>\] Se hvem spilleren har add hos$,LIVING_AREA_HELP
+^\| FV-PRISON \| VAGT-ALARM: ([a-zA-Z0-9_]{2,16}) har haft fingrene i Vagt-Vaulten i C!$,C_GUARD_VAULT_START
