@@ -9,3 +9,8 @@ messageRegex	FreakyVilleMessageType
 ^VAGT-ALARM: ([a-zA-Z0-9_]{2,16}) gennemførte et røveri i vagternes værdi-boks i A!$	A_GUARD_VAULT_FINISH
 ^VAGT-ALARM: Det lykkedes ([a-zA-Z0-9_]{2,16}) at bryde bankens pengeskab op i A+ Området!$	A_PLUS_GUARD_VAULT_FINISH
 ^------------={ ((?=[A-Za-z]*\d)(?=\d*[A-Za-z])[A-Za-z\d]+) }=------------$	LIVING_AREA_LOOKUP
+^Røveri: Du kan først røve her igen om( [0-9]+ timer[,]?)?( [0-9]+ minutter[,]?)?( [0-9]+ sekunder)?$	C_GUARD_VAULT_UPDATE
+^Røveri: Du kan først røve huset igen om( [0-9]+ timer[,]?)?( [0-9]+ minutter[,]?)?( [0-9]+ sekunder)?$	B_GUARD_VAULT_UPDATE
+^Du kan først åbne pengeskabet igen om( [0-9]+ timer[,]?)?( [0-9]+ minutter[,]?)?( [0-9]+ sekunder)?$	B_PLUS_GUARD_VAULT_UPDATE
+^Du kan først røve vagten igen om( [0-9]+ timer[,]?)?( [0-9]+ minutter[,]?)?( [0-9]+ sekunder)?$	A_GUARD_VAULT_UPDATE
+^Du kan først åbne pengeskabet igen om( [0-9]+ timer[,]?)?( [0-9]+ minutter[,]?)?( [0-9]+ sekunder)?$	A_PLUS_GUARD_VAULT_UPDATE
