@@ -16,3 +16,4 @@ messageRegex	FreakyVilleMessageType
 ^Du kan først åbne pengeskabet igen om( [0-9]+ (?:time|timer)[,]?)?( [0-9]+ (?:minut|minutter)[,]?)?( [0-9]+ (?:sekund|sekunder))?$	A_PLUS_GUARD_VAULT_UPDATE
 ^(\[[\*]{0,3}[ÆØÅæøåa-zA-Z]+\])?(\[[0-9]+\])?(\[(?:C|B|A|A\+|B\+)\])(\[[a-zA-Z]+\])?(\|Θ\|)? ([a-zA-Z0-9_]{2,16}): (.+)$	PLAYER_MESSAGE_ALL
 ^\[(\[[ÆØÅæøåa-zA-Z-\+]+\])* ([a-zA-Z0-9_]{2,16}) -> mig]: (.+)$	PLAYER_MESSAGE_YOU
+^----- Online Fanger i ((?:C|B|A)) ----$	PRISON_CHECK
