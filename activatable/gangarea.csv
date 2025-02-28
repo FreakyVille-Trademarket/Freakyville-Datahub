@@ -1,1 +1,2 @@
-
+prisonSector,expectedActivationTime,cooldownUponFailure,personalCooldown,sharedCooldown
+C,60,300,10800,900
