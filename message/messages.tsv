@@ -17,3 +17,10 @@ messageRegex	FreakyVilleMessageType
 ^(\[[\*]{0,3}[ÆØÅæøåa-zA-Z]+\])?(\[[0-9]+\])?(\[(?:C|B|A|A\+|B\+)\])(\[[a-zA-Z]+\])?(\|Θ\|)? ([a-zA-Z0-9_]{2,16}): (.+)$	PLAYER_MESSAGE_ALL
 ^\[(\[[ÆØÅæøåa-zA-Z-\+]+\])* ([a-zA-Z0-9_]{2,16}) -> mig]: (.+)$	PLAYER_MESSAGE_YOU
 ^----- Online Fanger i ((?:C|B|A)) ----$	PRISON_CHECK
+^\[Bande-Område\] ([a-zA-Z0-9_]{2,16}) prøver at overtage Bande Området for hans bande!$	GANG_AREA_TRY_UNSPECIFIED
+^\[Bande-Område\] ([a-zA-Z0-9_]{2,16}) prøver at overtage Bande Området for hans bande i B!$	GANG_AREA_TRY_B
+^\[B\+Bande-Område\] ([a-zA-Z0-9_]{2,16}) prøver at overtage B\+ Bande Området for hans bande!$	GANG_AREA_TRY_B_PLUS
+^\[A\+Bande-Område\] ([a-zA-Z0-9_]{2,16}) prøver at overtage A\+ Bande Området for hans bande!$	GANG_AREA_TRY_A_PLUS
+^\[Bande-Område\] Det lykkedes ([a-zA-Z0-9_]{2,16}) at overtage Bande Området!$	GANG_AREA_FINISH_UNSPECIFIED
+^\[B\+Bande-Område\] Det lykkedes ([a-zA-Z0-9_]{2,16}) at overtage B\+Bande Området!$	GANG_AREA_FINISH_B_PLUS
+^\[A\+Bande-Område\] Det lykkedes ([a-zA-Z0-9_]{2,16}) at overtage A\+Bande Området!$	GANG_AREA_FINISH_A_PLUS
