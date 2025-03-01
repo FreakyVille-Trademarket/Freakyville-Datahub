@@ -1,2 +1,4 @@
 skill,requirementZero,requirementOne,requirementTwo,requirementThree,requirementFour,requirementFive,requirementSix,requirementSeven,requirementEight,requirementNine,requirementTen
-FISHING,100,500,1000,1500,2500,4500,7500,12500,x,x,x
+FISHING,100,500,1000,1500,2500,4500,7500,12500,x,x
+MINING,7500,15000,37500,62500,125000,250000,375000,500000,625000,750000
+
