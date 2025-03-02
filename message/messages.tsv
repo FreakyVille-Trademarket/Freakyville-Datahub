@@ -24,3 +24,4 @@ messageRegex	FreakyVilleMessageType
 ^\[Bande-Område\] Det lykkedes ([a-zA-Z0-9_]{2,16}) at overtage Bande Området!$	GANG_AREA_FINISH_UNSPECIFIED
 ^\[B\+Bande-Område\] Det lykkedes ([a-zA-Z0-9_]{2,16}) at overtage B\+Bande Området!$	GANG_AREA_FINISH_B_PLUS
 ^\[A\+Bande-Område\] Det lykkedes ([a-zA-Z0-9_]{2,16}) at overtage A\+Bande Området!$	GANG_AREA_FINISH_A_PLUS
+^\+([0-9]+[,]?[.]?[0-9]?) ((?:Mining|Fishing|Respekt)) XP( \*Treasure Drop\*)?(.+)?$	SKILL_EXPERIENCE_GAIN_GENERIC
