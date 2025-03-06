@@ -1,4 +1,4 @@
-skill,requirementZero,requirementOne,requirementTwo,requirementThree,requirementFour,requirementFive,requirementSix,requirementSeven,requirementEight,requirementNine
-FISHING,x,x,x,x,x,x,x,x,x,x
-MINING,x,x,x,x,x,x,x,x,x,x
-RESPECT,x,x,x,x,x,x,x,x,x,x
+skill,maxLevel
+FISHING,10
+MINING,10
+RESPECT,10
