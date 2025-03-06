@@ -28,4 +28,4 @@ messageRegex	FreakyVilleMessageType
 ^Finn Fisker: Mange tak [a-zA-Z0-9_]{2,16}! Her har du ([0-9]+) Fishing XP!$	SKILL_EXPERIENCE_GAIN_FISHING_SCROLL
 ^Scroll indløst! Her har du ([0-9]+) Respekt XP!$	SKILL_EXPERIENCE_GAIN_RESPECT_SCROLL
 ^Godt gået! Du et netop steget level ([0-9]{1,2}) i ((?:Mining|Fishing|Respekt))!$	SKILL_LEVEL_UP
-^((?:Mining|Fishing|Respekt)) \(([0-9]{1,2})\) -> ([0-9]+[,]?[.]?[0-9]?)\/([0-9]+)$	SKILL_INFO_LOOKUP
+^((?:Mining|Fishing|Respekt)) \(([0-9]{1,2})\) -> ((?:([0-9]+[,]?[.]?[0-9]?)\/([0-9]+)|Max level))$	SKILL_INFO_LOOKUP
