@@ -1,4 +1,4 @@
-mineIdentifier,displayName,prisonSector,sharedCooldown
-cpremiummine,Donator Mine,C,720
-cmine1,Mine 1,C,900
-cmine2,Mine 2,C,600
+mineIdentifier,displayName,prisonSector,sharedCooldown,hasPVP
+cpremiummine,Donator Mine,C,720,false
+cmine1,Normal Mine 1,C,900,false
+cmine2,Normal Mine 2,C,600,false
