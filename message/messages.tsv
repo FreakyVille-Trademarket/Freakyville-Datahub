@@ -24,6 +24,7 @@ messageRegex	FreakyVilleMessageType
 ^\[Bande-Område\] Det lykkedes ([a-zA-Z0-9_]{2,16}) at overtage Bande Området!$	GANG_AREA_FINISH_UNSPECIFIED
 ^\[B\+Bande-Område\] Det lykkedes ([a-zA-Z0-9_]{2,16}) at overtage B\+Bande Området!$	GANG_AREA_FINISH_B_PLUS
 ^\[A\+Bande-Område\] Det lykkedes ([a-zA-Z0-9_]{2,16}) at overtage A\+Bande Området!$	GANG_AREA_FINISH_A_PLUS
+^Du kan først overtage territoriet igen om( [0-9]+ (?:time|timer)[,]?)?( [0-9]+ (?:minut|minutter)[,]?)?( [0-9]+ (?:sekund|sekunder))?$	GANG_AREA_UPDATE
 ^\+([0-9]+[,]?[.]?[0-9]?) ((?:Mining|Fishing|Respekt)) XP( \*Treasure Drop\*)?(.+)?$	SKILL_EXPERIENCE_GAIN_GENERIC
 ^Finn Fisker: Mange tak [a-zA-Z0-9_]{2,16}! Her har du ([0-9]+) Fishing XP!$	SKILL_EXPERIENCE_GAIN_FISHING_SCROLL
 ^Scroll indløst! Her har du ([0-9]+) Respekt XP!$	SKILL_EXPERIENCE_GAIN_RESPECT_SCROLL
