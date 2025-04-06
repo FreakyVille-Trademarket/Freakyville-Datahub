@@ -1,5 +1,5 @@
-prisonSector,expectedActivationTime,cooldownUponFailure,personalCooldown,sharedCooldown
-C,60,300,10800,900
+prisonSector,expectedActivationTime,cooldownUponFailure,personalCooldown,sharedCooldown,blockPositionX,blockPositionY,blockPositionZ
+C,60,300,10800,900,4,73,93
 B,60,300,10800,900
 B+,60,300,10800,900
 A,60,300,10800,900
