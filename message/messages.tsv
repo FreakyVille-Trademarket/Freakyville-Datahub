@@ -31,3 +31,4 @@ messageRegex	FreakyVilleMessageType
 ^Godt gået! Du et netop steget level ([0-9]{1,2}) i ((?:Mining|Fishing|Respekt))!$	SKILL_LEVEL_UP
 ^((?:Mining|Fishing|Respekt)) \(([0-9]{1,2})\) -> ((?:([0-9]+[,]?[.]?[0-9]?)\/([0-9]+)|Max level))$	SKILL_INFO_LOOKUP
 ^([A-Za-z1-9]+) resetter( om 1 sekund)?!.*?$	MINE_RESET
+^([A-Za-z1-9]+) will be resetting in 1 second\.*?$	MINE_RESET
