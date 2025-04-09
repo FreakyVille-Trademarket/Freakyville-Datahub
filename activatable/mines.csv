@@ -4,4 +4,4 @@ cmine1,Normal Mine 1,C,900,false
 cmine2,Normal Mine 2,C,600,false
 apremiummine,Donator Mine,A,720,false
 amine,Normal Mine,A,1800,false
-apvpmine,PvP Minen i A,A,3000,true
+apvpmine,PvP Minen,A,3000,true
