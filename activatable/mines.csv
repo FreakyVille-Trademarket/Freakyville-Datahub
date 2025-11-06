@@ -1,0 +1,8 @@
+mineIdentifier,displayName,prisonSector,sharedCooldown,hasPVP
+cpremiummine,Donator Mine,C,720,false
+cmine1,Normal Mine 1,C,900,false
+cmine2,Normal Mine 2,C,600,false
+bpluspvp,PvP Minen,B+,1560,true
+apremiummine,Donator Mine,A,720,false
+amine,Normal Mine,A,1800,false
+apvpmine,PvP Minen,A,3000,true
