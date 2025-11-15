@@ -1,0 +1,37 @@
+prisonSector	messageRegex	messageDescriptor
+	^\[\/ce find <spiller>\] Se hvem spilleren har add hos$	LIVING_AREA_HELP
+C	^\| FV-PRISON \| VAGT-ALARM: ([a-zA-Z0-9_]{2,16}) har haft fingrene i Vagt-Vaulten i C!$	GUARD_VAULT_ROBBERY
+CMS	^VAGT-ALARM: ([a-zA-Z0-9_]{2,16}) truer Lenny med tæsk i C-MAX Området!$	GUARD_VAULT_ROBBERY
+B	^VAGT-ALARM: ([a-zA-Z0-9_]{2,16}) har stjålet inventar fra Vagt-Huset B!$	GUARD_VAULT_ROBBERY
+B+	^VAGT-ALARM: ([a-zA-Z0-9_]{2,16}) prøver at bryde pengeskabet op i banken i B+ Området!$	GUARD_VAULT_ROBBERY
+A	^VAGT-ALARM: ([a-zA-Z0-9_]{2,16}) forsøger at røve vagternes værdi-boks i A!$	GUARD_VAULT_ROBBERY
+A+	^VAGT-ALARM: ([a-zA-Z0-9_]{2,16}) prøver at bryde pengeskabet op i banken i A+ Området!$	GUARD_VAULT_ROBBERY
+CMS	^VAGT-ALARM: Det lykkedes ([a-zA-Z0-9_]{2,16}) at røve stakkels Lenny i C-MAX Området!$	GUARD_VAULT_ROBBERY_FINISH
+B+	^VAGT-ALARM: Det lykkedes ([a-zA-Z0-9_]{2,16}) at bryde bankens pengeskab op i B+ Området!$	GUARD_VAULT_ROBBERY_FINISH
+A	^VAGT-ALARM: ([a-zA-Z0-9_]{2,16}) gennemførte et røveri i vagternes værdi-boks i A!$	GUARD_VAULT_ROBBERY_FINISH
+A+	^VAGT-ALARM: Det lykkedes ([a-zA-Z0-9_]{2,16}) at bryde bankens pengeskab op i A+ Området!$	GUARD_VAULT_ROBBERY_FINISH
+	^------------=\{ ((?=[A-Za-z]*\d)(?=\d*[A-Za-z])[A-Za-z\d]+) \}=------------$	CELL_LOOKUP
+C	^Røveri: Du kan først røve her igen om( [0-9]+ (?:time|timer)[,]?)?( [0-9]+ (?:minut|minutter)[,]?)?( [0-9]+ (?:sekund|sekunder))?$	GUARD_VAULT_RECALIBRATION
+CMS	^Du kan først snakke med Lenny igen om( [0-9]+ (?:time|timer)[,]?)?( [0-9]+ (?:minut|minutter)[,]?)?( [0-9]+ (?:sekund|sekunder))?$	GUARD_VAULT_RECALIBRATION
+B	^Røveri: Du kan først røve huset igen om( [0-9]+ (?:time|timer)[,]?)?( [0-9]+ (?:minut|minutter)[,]?)?( [0-9]+ (?:sekund|sekunder))?$	GUARD_VAULT_RECALIBRATION
+B+	^Du kan først åbne pengeskabet igen om( [0-9]+ (?:time|timer)[,]?)?( [0-9]+ (?:minut|minutter)[,]?)?( [0-9]+ (?:sekund|sekunder))?$	GUARD_VAULT_RECALIBRATION
+A	^Du kan først røve vagten igen om( [0-9]+ (?:time|timer)[,]?)?( [0-9]+ (?:minut|minutter)[,]?)?( [0-9]+ (?:sekund|sekunder))?$	GUARD_VAULT_RECALIBRATION
+A+	^Du kan først åbne pengeskabet igen om( [0-9]+ (?:time|timer)[,]?)?( [0-9]+ (?:minut|minutter)[,]?)?( [0-9]+ (?:sekund|sekunder))?$	GUARD_VAULT_RECALIBRATION
+	^----- Online Fanger i ((?:C|B|A)) ----$	PRISON_LOOKUP
+	^\[Bande-Område\] ([a-zA-Z0-9_]{2,16}) prøver at overtage Bande Området for hans bande!$	GANG_AREA_OVERTAKE
+B	^\[Bande-Område\] ([a-zA-Z0-9_]{2,16}) prøver at overtage Bande Området for hans bande i B!$	GANG_AREA_OVERTAKE
+B+	^\[B\+Bande-Område\] ([a-zA-Z0-9_]{2,16}) prøver at overtage B\+ Bande Området for hans bande!$	GANG_AREA_OVERTAKE
+A+	^\[A\+Bande-Område\] ([a-zA-Z0-9_]{2,16}) prøver at overtage A\+ Bande Området for hans bande!$	GANG_AREA_OVERTAKE
+	^\[Bande-Område\] Det lykkedes ([a-zA-Z0-9_]{2,16}) at overtage Bande Området!$	GANG_AREA_OVERTAKE_FINISH
+B+	^\[B\+Bande-Område\] Det lykkedes ([a-zA-Z0-9_]{2,16}) at overtage B\+Bande Området!$	GANG_AREA_OVERTAKE_FINISH
+A+	^\[A\+Bande-Område\] Det lykkedes ([a-zA-Z0-9_]{2,16}) at overtage A\+Bande Området!$	GANG_AREA_OVERTAKE_FINISH
+	^Du kan først overtage territoriet igen om( [0-9]+ (?:time|timer)[,]?)?( [0-9]+ (?:minut|minutter)[,]?)?( [0-9]+ (?:sekund|sekunder))?$	GANG_AREA_RECALIBRATION
+	^\+([0-9]+[,]?[.]?[0-9]?) ((?:Mining|Fishing|Respekt)) XP( \*Treasure Drop\*)?(.+)?$	SKILL_EXPERIENCE_GAIN_GENERIC
+	^Finn Fisker: Mange tak [a-zA-Z0-9_]{2,16}! Her har du ([0-9]+) Fishing XP!$	SKILL_EXPERIENCE_GAIN_FISHING_SCROLL
+	^Scroll indløst! Her har du ([0-9]+) Respekt XP!$	SKILL_EXPERIENCE_GAIN_RESPECT_SCROLL
+	^Godt gået! Du et netop steget level ([0-9]{1,2}) i ((?:Mining|Fishing|Respekt))!$	SKILL_LEVEL_UP
+	^((?:Mining|Fishing|Respekt)) \(([0-9]{1,2})\) -> ((?:([0-9]+[,]?[.]?[0-9]?)\/([0-9]+)|Max level))$	SKILL_INFO_LOOKUP
+B	^CHEST-ALARM: ([a-zA-Z0-9_]{2,16}) prøver at åbne den hemmelige chest op i PvP Minen!$	SECRET_CHEST_TRY
+B	^CHEST-ALARM: ([a-zA-Z0-9_]{2,16}) låste den hemmelige chest op i PvP Minen!$	SECRET_CHEST_FINISH
+	^([A-Za-z1-9]+) resetter( om 1 sekund)?!.*?$	MINE_RESET
+	^([A-Za-z1-9]+) will be resetting in 1 second\.*?$	MINE_RESET
